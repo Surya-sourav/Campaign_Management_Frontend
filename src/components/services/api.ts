@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Campaign, NewCampaign, LinkedInProfile, PersonalizedMessage } from '../types';
 
-const API_URL = 'https://campaign-management-backend.onrender.com/api/';
+const API_URL = 'https://campaign-management-backend.onrender.com';
 
 // Campaign API calls
 export const fetchCampaigns = async (): Promise<Campaign[]> => {
